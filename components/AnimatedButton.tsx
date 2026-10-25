@@ -6,7 +6,8 @@ import { useA11yReducedMotion } from "@/lib/use-a11y-reduced-motion";
 import type { ReactNode } from "react";
 
 const variantClassName = {
-  primary: "bg-accent text-white shadow-[0px_4px_2px_rgba(0,0,0,0.25)]",
+  // Dark text on brand orange: white on #E98C00 is 2.6:1 (fails WCAG AA); #0F172A is 7.0:1.
+  primary: "bg-accent text-foreground shadow-[0px_4px_2px_rgba(0,0,0,0.25)]",
   secondary:
     "border border-slate-900 bg-white text-slate-900 shadow-[0px_4px_2px_rgba(0,0,0,0.25)]",
 } as const;
