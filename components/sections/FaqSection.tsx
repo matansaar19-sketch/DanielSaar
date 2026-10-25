@@ -33,7 +33,7 @@ export function FaqSection() {
     <section aria-labelledby="faq-heading" className="bg-white px-4 py-16 sm:px-8 lg:py-20">
       <div className="mx-auto max-w-3xl">
         <h2 id="faq-heading" className="mb-10 text-center text-4xl font-bold text-slate-900">
-          שאלות תשובות
+          שאלות ותשובות
         </h2>
         <div className="flex flex-col gap-4">
           {faqs.map((item, i) => {
