@@ -13,15 +13,26 @@ const assistant = Assistant({
 
 const siteUrl = getSiteUrl();
 
+const SITE_TITLE = "סטוריטלינג עסקי ואישי – ספרי חיים ותוכן לעסקים | דניאל סער";
+const SITE_DESCRIPTION =
+  "דניאל סער – כתיבת ספר חיים וסיפור אישי, וכתיבת תוכן לעסקים: אתרים, עמודי נחיתה ותסריטים לסושיאל. 7 שנות ניסיון בסטוריטלינג.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "דניאל סער | סטוריטלינג עסקי ואישי",
+    default: SITE_TITLE,
     template: "%s | דניאל סער",
   },
-  description:
-    "כתיבה, עריכה ותכנון תוכן לעסקים ולאנשים פרטיים. סטוריטלינג עסקי, כתיבת סיפור אישי, תוכן שיווקי ומורשת משפחתית.",
-  keywords: ["סטוריטלינג", "כתיבת תוכן", "סיפור אישי", "תוכן לעסקים", "דניאל סער"],
+  description: SITE_DESCRIPTION,
+  keywords: [
+    "כתיבת ספר חיים",
+    "כתיבת סיפור אישי",
+    "ספר מורשת משפחתית",
+    "כתיבת תוכן לעסקים",
+    "כתיבת תוכן לאתרים",
+    "סטוריטלינג",
+    "דניאל סער",
+  ],
   authors: [{ name: "דניאל סער" }],
   creator: "דניאל סער",
   openGraph: {
@@ -29,13 +40,15 @@ export const metadata: Metadata = {
     locale: "he_IL",
     url: siteUrl,
     siteName: "דניאל סער",
-    title: "דניאל סער | סטוריטלינג עסקי ואישי",
-    description: "כתיבה, עריכה ותכנון תוכן לעסקים ולאנשים פרטיים.",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "דניאל סער" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "דניאל סער | סטוריטלינג עסקי ואישי",
-    description: "כתיבה, עריכה ותכנון תוכן לעסקים ולאנשים פרטיים.",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: ["/og-image.png"],
   },
   alternates: {
     canonical: "/",
