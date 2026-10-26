@@ -18,7 +18,7 @@ export function HeroSection() {
               <div className="relative h-[287px] w-[192px] shrink-0 overflow-hidden rounded-[20px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] lg:h-[430px] lg:w-[287px]">
                 <ResponsiveFigmaPicture
                   asset={figma.heroPortrait}
-                  alt="דניאל סער"
+                  alt="דניאל סער, כותבת ועורכת תוכן"
                   width={287}
                   height={430}
                   priority
@@ -32,7 +32,7 @@ export function HeroSection() {
                   <div className="relative h-[64px] w-[234px] shrink-0">
                     <ResponsiveFigmaPicture
                       asset={figma.heroTitle}
-                      alt=""
+                      alt="דניאל סער"
                       width={234}
                       height={64}
                       className="[&_img]:object-contain"
