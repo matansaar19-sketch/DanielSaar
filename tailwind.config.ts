@@ -14,6 +14,7 @@ export default {
         accent: "var(--accent)",
         muted: "var(--muted)",
         surface: "var(--surface)",
+        cream: "var(--cream)",
       },
       fontFamily: {
         sans: ["var(--font-assistant)", "Assistant", "system-ui", "sans-serif"],
