@@ -2,6 +2,7 @@ import { MotionFade } from "@/components/MotionFade";
 import { AnimatedButton } from "@/components/AnimatedButton";
 import { ResponsiveFigmaPicture } from "@/components/ResponsiveFigmaPicture";
 import { figma } from "@/lib/figma-assets";
+import { withBasePath } from "@/lib/base-path";
 import { WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/whatsapp";
 
 const waHero = whatsappUrl(WHATSAPP_MESSAGES.hero);
@@ -11,8 +12,12 @@ export function HeroSection() {
   return (
     <MotionFade eager>
       <section aria-labelledby="hero-heading" className="flex justify-center px-4 pb-12 pt-4 sm:px-6 lg:px-10 lg:pb-24">
-        <div className="w-full max-w-[1820px] rounded-[30px] bg-[#e4e4e6] px-[8px] py-[90px] lg:bg-[#f1f1f2] lg:p-0">
-          <div className="rounded-[30px] lg:bg-slate-500/10 lg:py-[200px]">
+        <div
+          className="w-full max-w-[1820px] rounded-[30px] bg-[#e8e1d7] bg-cover bg-left-top bg-no-repeat px-[8px] py-[90px] lg:p-0"
+          style={{ backgroundImage: `url(${withBasePath("/figma/hero-paper-bg.webp")})` }}
+        >
+          {/* Torn-paper texture background; solid color matches the paper tone as a fallback */}
+          <div className="rounded-[30px] lg:py-[200px]">
             <div className="mx-auto flex max-w-[838px] flex-col items-center gap-20 lg:flex-row lg:items-center lg:justify-center lg:gap-20">
               {/* Portrait — top on mobile, right on desktop RTL */}
               <div className="relative h-[287px] w-[192px] shrink-0 overflow-hidden rounded-[20px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] lg:h-[430px] lg:w-[287px]">
