@@ -13,10 +13,12 @@ export function HeroSection() {
     <MotionFade eager>
       <section aria-labelledby="hero-heading" className="flex justify-center px-4 pb-12 pt-4 sm:px-6 lg:px-10 lg:pb-24">
         <div
-          className="w-full max-w-[1820px] rounded-[30px] bg-[#e8e1d7] bg-cover bg-left-top bg-no-repeat px-[8px] py-[90px] lg:p-0"
-          style={{ backgroundImage: `url(${withBasePath("/figma/hero-paper-bg.webp")})` }}
+          className="w-full max-w-[1820px] rounded-[30px] bg-[#e6e1d6] bg-[length:190px_auto] bg-left-top bg-no-repeat px-[8px] py-[90px] lg:bg-[length:420px_auto] lg:p-0"
+          style={{ backgroundImage: `url(${withBasePath("/figma/hero-paper-tear.webp")})` }}
         >
-          {/* Torn-paper texture background; solid color matches the paper tone as a fallback */}
+          {/* Paper-tone card with a torn-paper accent in the top-left corner.
+              The accent is shown at or below its native size (720px) so it stays sharp,
+              and is kept small enough to stay clear of the title and portrait. */}
           <div className="rounded-[30px] lg:py-[200px]">
             <div className="mx-auto flex max-w-[838px] flex-col items-center gap-20 lg:flex-row lg:items-center lg:justify-center lg:gap-20">
               {/* Portrait — top on mobile, right on desktop RTL */}
