@@ -19,7 +19,9 @@ export function HeroSection() {
           {/* Paper-tone card with a torn-paper accent in the top-left corner.
               The accent is shown at or below its native size (720px) so it stays sharp,
               and is kept small enough to stay clear of the title and portrait. */}
-          <div className="rounded-[30px] lg:py-[200px]">
+          {/* Desktop vertical padding scales with screen size so the card stays a wide rectangle
+              on every desktop screen (it was a fixed 200px top/bottom, ~830px tall, which looked boxy). */}
+          <div className="rounded-[30px] lg:py-16 xl:py-20">
             <div className="mx-auto flex max-w-[838px] flex-col items-center gap-20 lg:flex-row lg:items-center lg:justify-center lg:gap-20">
               {/* Portrait — top on mobile, right on desktop RTL */}
               <div className="relative h-[287px] w-[192px] shrink-0 overflow-hidden rounded-[20px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] lg:h-[430px] lg:w-[287px]">
