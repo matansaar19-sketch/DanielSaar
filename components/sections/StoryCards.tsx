@@ -71,7 +71,7 @@ export function BusinessStoryCard() {
           <img src={figma.cardBusinessTop.mobile} alt="" className="absolute inset-0 h-full w-full object-cover" loading="lazy" decoding="async" />
         </picture>
         <div className="absolute bottom-4 right-4 rounded border border-white bg-[#e98c00] px-2.5 py-0.5">
-          <span className="text-sm font-bold text-white">עסקי</span>
+          <span className="text-sm font-bold text-ink">עסקי</span>
         </div>
       </div>
       <p className="shrink-0 text-center text-[8px] text-ink-soft lg:absolute lg:left-6 lg:top-[267px] lg:text-left lg:text-[10px] lg:font-bold lg:whitespace-nowrap">
