@@ -6,17 +6,18 @@ export type ProcessStep = {
   body: string;
 };
 
+// Layout: phone = one column; tablet (md) = 2x2 grid; laptop (xl) = 4 in a row; wide (steps) = original fixed 310px cards.
 const rowClassName =
-  "flex w-full max-w-[312px] flex-col items-start gap-5 self-center steps:max-w-none steps:flex-row steps:flex-nowrap steps:items-stretch steps:justify-center steps:gap-[72px]";
+  "flex w-full max-w-[312px] flex-col items-start gap-5 self-center md:grid md:max-w-[680px] md:grid-cols-2 md:items-stretch md:gap-6 xl:max-w-[1240px] xl:grid-cols-4 steps:flex steps:max-w-none steps:flex-row steps:flex-nowrap steps:items-stretch steps:justify-center steps:gap-[72px]";
 
 const cardClassName =
-  "flex h-[237px] w-full shrink-0 flex-col items-start justify-center gap-1.5 rounded-lg bg-white p-4 text-right shadow-[0px_4px_2px_rgba(0,0,0,0.25)] transition-transform duration-300 hover:-translate-y-1 steps:h-full steps:justify-start steps:w-[310px] steps:gap-1.5 steps:p-4";
+  "flex h-[237px] w-full shrink-0 flex-col items-start justify-center gap-1.5 rounded-lg bg-white p-4 text-right shadow-[0px_4px_2px_rgba(0,0,0,0.25)] transition-transform duration-300 hover:-translate-y-1 md:h-full md:min-h-[237px] md:justify-start steps:min-h-0 steps:w-[310px] steps:gap-1.5 steps:p-4";
 
 export function ProcessStepCards({ steps }: { steps: ProcessStep[] }) {
   return (
     <div className={rowClassName}>
       {steps.map((s) => (
-        <div key={s.n} className="flex w-full flex-row items-center self-stretch steps:w-auto">
+        <div key={s.n} className="flex w-full flex-row items-center self-stretch md:items-stretch steps:w-auto">
           <div className={cardClassName}>
             <StepNumberLabel n={s.n} className="text-5xl tracking-[0.16px] steps:text-[60px]" />
             <div className="flex w-full flex-col items-start gap-1.5">
