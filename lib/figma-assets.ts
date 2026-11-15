@@ -4,7 +4,7 @@ import { withAssetPrefix } from "@/lib/base-path";
 const figmaAssets = {
   logo: { mobile: "/figma/995841c4-13ea-451f-8b9c-1618a05079ed.svg", desktop: "/figma/411f046f-4104-44e8-a194-bc7ce77ade6d.svg" },
   heroTitle: { mobile: "/figma/4a3181c5-9800-4e4f-ab0d-3f1da40b62a5.svg", desktop: "/figma/4a3181c5-9800-4e4f-ab0d-3f1da40b62a5.svg" },
-  heroPortrait: { mobile: "/figma/5cb9959b-563c-4de3-b197-26d6a07ee059.webp", desktop: "/figma/5cb9959b-563c-4de3-b197-26d6a07ee059.webp" },
+  heroPortrait: { mobile: "/figma/hero-portrait-daniel-2026.webp", desktop: "/figma/hero-portrait-daniel-2026.webp" },
   waHeroButton: "/figma/7601bf28-be06-4252-880f-28d48fa0e07d.svg",
   cardPersonalTop: { mobile: "/figma/71ff1037-3ee2-4dab-ac3a-b3f022ba4dfb.webp", desktop: "/figma/6312a868-1fd6-4b1f-b3b9-dcbdb4cccc21.webp" },
   cardBusinessTop: { mobile: "/figma/2fd6fcb7-f90d-4956-8596-a677234303d5.webp", desktop: "/figma/b03a2d19-2bfc-44ef-b076-0db74ad7700d.webp" },
