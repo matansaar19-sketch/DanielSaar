@@ -11,7 +11,7 @@ export function StoryChoiceSection() {
             <h2 id="story-choice-title" className="text-4xl font-bold tracking-tight text-ink sm:text-6xl lg:text-[80px]">
               מה הסיפור שלך?
             </h2>
-            <p className="text-2xl font-semibold text-ink-soft sm:text-3xl lg:text-[40px] lg:tracking-wide">סיפור עסקי או אישי</p>
+            <p className="text-2xl font-semibold text-[#6f747f] sm:text-3xl lg:text-[40px] lg:tracking-wide">סיפור עסקי או אישי</p>
           </div>
           <div className="hidden w-full items-stretch justify-center gap-6 lg:flex">
             <div className="flex min-w-0 flex-1 basis-0 max-w-[551px] [&>article]:h-full [&>article]:w-full [&>article]:max-w-none">

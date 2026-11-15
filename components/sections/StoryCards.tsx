@@ -29,7 +29,7 @@ export function PersonalStoryCard() {
         <div className="flex w-full flex-1 flex-col items-start gap-6">
           <div className="w-full text-right">
             <h3 className="text-2xl font-bold text-ink lg:text-[34px]">סיפור אישי</h3>
-            <p className="mt-2 text-lg font-semibold text-ink-soft lg:text-2xl">הפיכת זיכרונות וחוויות חיים לספר כתוב</p>
+            <p className="mt-2 text-lg font-semibold text-slate-900/60 lg:text-2xl">הפיכת זיכרונות וחוויות חיים לספר כתוב</p>
           </div>
           <ul className="flex w-full flex-col gap-4">
             <li className="flex items-center justify-start gap-4 text-base font-semibold text-ink">
@@ -74,14 +74,14 @@ export function BusinessStoryCard() {
           <span className="text-sm font-bold text-ink">עסקי</span>
         </div>
       </div>
-      <p className="shrink-0 text-center text-[8px] text-ink-soft lg:absolute lg:left-6 lg:top-[267px] lg:text-left lg:text-[10px] lg:font-bold lg:whitespace-nowrap">
+      <p className="shrink-0 text-center text-[8px] text-slate-900/60 lg:absolute lg:left-6 lg:top-[267px] lg:text-left lg:text-[10px] lg:font-bold lg:whitespace-nowrap">
         הלוגואים מוצגים להמחשת ניסיון בפרויקטים, כל הזכויות שמורות לבעליהם ללא קשר שותפות
       </p>
       <div className="flex flex-1 flex-col gap-6 bg-white px-4 py-6 text-right sm:px-6 lg:px-6 lg:pb-8 lg:pt-8">
         <div className="flex w-full flex-1 flex-col items-start gap-6">
           <div className="w-full text-right">
             <h3 className="text-2xl font-bold text-ink lg:text-[34px]">סיפור עסקי</h3>
-            <p className="mt-2 text-lg font-semibold text-ink-soft lg:text-2xl">בניית אסטרטגיית תוכן לעסקים</p>
+            <p className="mt-2 text-lg font-semibold text-slate-900/60 lg:text-2xl">בניית אסטרטגיית תוכן לעסקים</p>
           </div>
           <ul className="flex w-full flex-col gap-4">
             <li className="flex items-center justify-start gap-4 text-base font-semibold text-ink">

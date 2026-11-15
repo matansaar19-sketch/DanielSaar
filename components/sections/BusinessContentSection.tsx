@@ -60,7 +60,7 @@ export function BusinessContentSection() {
 
               </div>
 
-              <p className="w-full text-lg font-semibold text-ink-soft lg:text-[22px]">
+              <p className="w-full text-lg font-semibold text-slate-900/60 lg:text-[22px]">
                 אני בונה אסטרטגיית תוכן שיווקית שמבדלת אתכם בשוק,{" "}
                 <br className="hidden content:inline" />
                 תוך הבנת הסיפור הייחודי שלכם או של המוצר שלכם

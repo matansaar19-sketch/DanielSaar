@@ -7,8 +7,8 @@
   --foreground: #0f172a;
   --accent: #E98C00;
   --muted: #6f747f;
-  --ink: #3d3229; /* main text: dark warm brown, 12.4:1 on white */
-  --ink-soft: #665747; /* secondary text (was gray): warm brown, 7.0:1 on white */
+  --ink: #2e2620; /* main text: dark warm brown, 14.9:1 on white; secondary text stays gray */
+  --ink-soft: #665747; /* hero subtitle brown */
   --surface: #f1f1f2;
 }
 
