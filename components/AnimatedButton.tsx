@@ -8,6 +8,8 @@ import type { ReactNode } from "react";
 const variantClassName = {
   // Dark text on brand orange: white on #E98C00 is 2.6:1 (fails WCAG AA); #0F172A is 7.0:1.
   primary: "bg-accent text-foreground shadow-[0px_4px_2px_rgba(0,0,0,0.25)]",
+  // Brown button with cream text (#EBE7E1 on #665747 = 5.6:1, passes WCAG AA).
+  brown: "bg-[#665747] text-[#EBE7E1] shadow-[0px_4px_2px_rgba(0,0,0,0.25)] hover:bg-[#574a3c]",
   secondary:
     "border border-slate-900 bg-white text-slate-900 shadow-[0px_4px_2px_rgba(0,0,0,0.25)]",
 } as const;
