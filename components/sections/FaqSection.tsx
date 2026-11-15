@@ -30,7 +30,7 @@ export function FaqSection() {
   const reduceMotion = useA11yReducedMotion();
 
   return (
-    <section aria-labelledby="faq-heading" className="bg-paper px-4 py-16 sm:px-8 lg:py-20">
+    <section aria-labelledby="faq-heading" className="bg-white px-4 py-16 sm:px-8 lg:py-20">
       <div className="mx-auto max-w-3xl">
         <h2 id="faq-heading" className="mb-10 text-center text-4xl font-bold text-ink">
           שאלות ותשובות
