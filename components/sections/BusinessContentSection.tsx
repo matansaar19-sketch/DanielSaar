@@ -50,9 +50,9 @@ export function BusinessContentSection() {
 
               <div className="flex w-full flex-col items-start gap-5">
 
-                <span className="rounded-full border border-slate-900/90 px-4 py-1.5 text-[15px] font-semibold text-slate-900">לעסקים</span>
+                <span className="rounded-full border border-ink px-4 py-1.5 text-[15px] font-semibold text-ink">לעסקים</span>
 
-                <h2 id="business-heading" className="whitespace-pre-wrap text-3xl font-bold leading-tight text-slate-900 lg:text-[42px]">
+                <h2 id="business-heading" className="whitespace-pre-wrap text-3xl font-bold leading-tight text-ink lg:text-[42px]">
                   <span>כתיבת תוכן</span>
                   {"\n"}
                   <span>לעסקים</span>
@@ -60,7 +60,7 @@ export function BusinessContentSection() {
 
               </div>
 
-              <p className="w-full text-lg font-semibold text-slate-900/60 lg:text-[22px]">
+              <p className="w-full text-lg font-semibold text-ink-soft lg:text-[22px]">
                 אני בונה אסטרטגיית תוכן שיווקית שמבדלת אתכם בשוק,{" "}
                 <br className="hidden content:inline" />
                 תוך הבנת הסיפור הייחודי שלכם או של המוצר שלכם
@@ -79,7 +79,7 @@ export function BusinessContentSection() {
 
               </div>
 
-              <ul className="flex w-full list-disc flex-col gap-2.5 ps-7 text-lg font-semibold text-slate-900 marker:text-slate-900">
+              <ul className="flex w-full list-disc flex-col gap-2.5 ps-7 text-lg font-semibold text-ink marker:text-ink">
 
                 <li>כתיבת תוכן לאתרים ולעמודי נחיתה</li>
 

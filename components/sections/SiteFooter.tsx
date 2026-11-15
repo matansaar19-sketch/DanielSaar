@@ -55,7 +55,7 @@ export function SiteFooter() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="האינסטגרם של דניאל סער (נפתח בלשונית חדשה)"
-            className="group inline-flex min-h-11 items-center gap-1.5 rounded-md px-1 text-sm font-semibold text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            className="group inline-flex min-h-11 items-center gap-1.5 rounded-md px-1 text-sm font-semibold text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             <span className="relative inline-block h-5 w-5 shrink-0">
               <InstagramGlyph className="absolute inset-0 transition-opacity duration-200 group-hover:opacity-0 group-focus-visible:opacity-0 motion-reduce:transition-none" />

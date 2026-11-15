@@ -24,13 +24,13 @@ function QuoteCard({ t }: { t: Testimonial }) {
           <img src={figma.quote.mobile} alt="" className="size-full object-contain" />
         </picture>
       </div>
-      <blockquote className="text-right text-lg text-slate-900 lg:text-xl">
+      <blockquote className="text-right text-lg text-ink lg:text-xl">
         <p>{t.quote}</p>
       </blockquote>
       <footer className="mt-auto flex w-full items-start justify-end gap-4">
         <div className="text-right">
-          <p className="font-semibold text-slate-900">{t.name}</p>
-          <p className="text-xs text-slate-900">{t.role}</p>
+          <p className="font-semibold text-ink">{t.name}</p>
+          <p className="text-xs text-ink">{t.role}</p>
         </div>
         <div className="flex size-12 shrink-0 items-center justify-center rounded-full border border-[#e98c00] text-xl font-bold text-[#e98c00]" aria-hidden>
           {t.initial}
@@ -109,7 +109,7 @@ export function TestimonialsSection({ items }: { items: Testimonial[] }) {
   return (
     <section aria-labelledby="testimonials-heading" className="bg-white px-4 py-16 sm:px-8 lg:py-[140px]">
       <div className="mx-auto flex max-w-[1920px] flex-col gap-10 lg:gap-16">
-        <h2 id="testimonials-heading" className="text-center text-3xl font-semibold text-slate-900 lg:text-[40px]">
+        <h2 id="testimonials-heading" className="text-center text-3xl font-semibold text-ink lg:text-[40px]">
           חוות דעת
         </h2>
         <MobileTestimonialsCarousel items={items} />

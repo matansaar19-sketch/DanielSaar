@@ -46,10 +46,10 @@ export function HeroSection() {
                     />
                   </div>
                   <div className="flex w-full flex-col items-start gap-2.5 text-right">
-                    <h1 id="hero-heading" className="w-full text-[34px] font-semibold text-[#665747]">
+                    <h1 id="hero-heading" className="w-full text-[34px] font-semibold text-ink">
                       סטוריטלינג עסקי ואישי
                     </h1>
-                    <p className="w-full text-2xl text-[#665747]">
+                    <p className="w-full text-2xl text-ink-soft">
                       כתיבה, עריכה ותכנון תוכן עבור עסקים ואנשים פרטיים
                     </p>
                   </div>
