@@ -45,7 +45,7 @@ export function PersonalStorySection() {
                   <span>סיפור אישי</span>
                 </h2>
               </div>
-              <p className="w-full text-lg font-semibold leading-normal text-ink lg:text-[22px]">
+              <p className="w-full text-lg font-semibold leading-normal text-ink-soft lg:text-[22px]">
                 אני מגבשת את הזיכרונות שלכם לספר מרגש שמתעד את המורשת המשפחתית מתוך אמונה שלכל אדם יש סיפור ששווה לספר
               </p>
 

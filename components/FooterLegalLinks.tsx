@@ -17,7 +17,7 @@ export function FooterLegalLinks() {
             <button
               type="button"
               onClick={() => setOpenDocument(privacyPolicyDocument)}
-              className="text-xs text-ink underline-offset-2 transition-colors hover:text-ink hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
+              className="text-xs text-ink-soft underline-offset-2 transition-colors hover:text-ink hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
             >
               מדיניות פרטיות
             </button>
@@ -26,7 +26,7 @@ export function FooterLegalLinks() {
             <button
               type="button"
               onClick={() => setOpenDocument(accessibilityStatementDocument)}
-              className="text-xs text-ink underline-offset-2 transition-colors hover:text-ink hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
+              className="text-xs text-ink-soft underline-offset-2 transition-colors hover:text-ink hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
             >
               הצהרת נגישות
             </button>

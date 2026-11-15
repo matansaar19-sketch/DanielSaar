@@ -14,6 +14,7 @@ export default {
         accent: "var(--accent)",
         muted: "var(--muted)",
         ink: "var(--ink)",
+        "ink-soft": "var(--ink-soft)",
         surface: "var(--surface)",
       },
       fontFamily: {

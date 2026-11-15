@@ -19,7 +19,7 @@ export function LegalDocumentBody({ document, titleId }: Props) {
             </h3>
             <div className="flex flex-col gap-2">
               {section.paragraphs.map((paragraph, index) => (
-                <p key={index} className="text-sm leading-7 text-ink">
+                <p key={index} className="text-sm leading-7 text-ink-soft">
                   {paragraph}
                 </p>
               ))}
