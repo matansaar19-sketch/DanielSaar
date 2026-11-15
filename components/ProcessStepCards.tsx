@@ -20,10 +20,10 @@ export function ProcessStepCards({ steps }: { steps: ProcessStep[] }) {
           <div className={cardClassName}>
             <StepNumberLabel n={s.n} className="text-5xl tracking-[0.16px] steps:text-[60px]" />
             <div className="flex w-full flex-col items-start gap-1.5">
-              <h3 className="w-full text-right text-xl font-bold tracking-[0.16px] text-[#0f172a] steps:text-[24px]">
+              <h3 className="w-full text-right text-xl font-bold tracking-[0.16px] text-ink steps:text-[24px]">
                 {s.title}
               </h3>
-              <p className="w-full max-w-none text-right text-xl font-normal tracking-[0.16px] text-[#0f172a] steps:max-w-[280px] steps:text-[20px] steps:leading-7">
+              <p className="w-full max-w-none text-right text-xl font-normal tracking-[0.16px] text-ink steps:max-w-[280px] steps:text-[20px] steps:leading-7">
                 {s.body}
               </p>
             </div>

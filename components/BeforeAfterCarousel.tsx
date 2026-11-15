@@ -52,8 +52,8 @@ export function BeforeAfterCarousel() {
       aria-label="דוגמאות לפני ואחרי שדרוג תוכן"
       tabIndex={0}
     >
-      <div className="relative aspect-[742/554] w-full overflow-hidden rounded-[20px] border border-slate-900/20 bg-white">
-        <EmblaCarouselArrows emblaApi={emblaApi} variant="overlay" className="!text-slate-900 hover:!text-slate-900 [&_svg]:drop-shadow-none" />
+      <div className="relative aspect-[742/554] w-full overflow-hidden rounded-[20px] border border-ink/20 bg-white">
+        <EmblaCarouselArrows emblaApi={emblaApi} variant="overlay" className="!text-ink hover:!text-ink [&_svg]:drop-shadow-none" />
         <div className="relative h-full w-full overflow-hidden rounded-[20px]" ref={emblaRef}>
           <div className="flex h-full">
             {slides.map((slide, i) => (
@@ -95,7 +95,7 @@ export function BeforeAfterCarousel() {
               role="tab"
               aria-selected={selected === i}
               className={`rounded-full transition-all duration-300 ${
-                selected === i ? "size-2.5 bg-slate-900 content:size-3" : "size-2 bg-slate-900/30 content:size-2.5"
+                selected === i ? "size-2.5 bg-ink content:size-3" : "size-2 bg-ink/30 content:size-2.5"
               }`}
               onClick={() => emblaApi?.scrollTo(i)}
               aria-label={i === 0 ? "תצוגת אחרי" : "תצוגת לפני"}

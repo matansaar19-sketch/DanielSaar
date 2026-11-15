@@ -89,7 +89,7 @@ export function AccessibilityMenu() {
           aria-label="הגדרות נגישות"
           className="fixed bottom-20 right-6 z-[60] w-[min(320px,calc(100vw-3rem))] rounded-xl border border-slate-200 bg-white p-4 shadow-2xl"
         >
-          <div className="flex flex-col gap-3 text-right text-sm text-slate-900">
+          <div className="flex flex-col gap-3 text-right text-sm text-ink">
             <label className="flex items-center justify-between gap-2">
               <span>הגדלת טקסט</span>
               <input

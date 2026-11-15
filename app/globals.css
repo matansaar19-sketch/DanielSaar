@@ -7,6 +7,7 @@
   --foreground: #0f172a;
   --accent: #E98C00;
   --muted: #6f747f;
+  --ink: #665747; /* site text color (warm brown, 7.0:1 on white) */
   --surface: #f1f1f2;
 }
 
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-  color: var(--foreground);
+  color: var(--ink);
   background: var(--background);
 }
 

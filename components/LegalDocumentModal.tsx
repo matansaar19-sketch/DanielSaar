@@ -52,7 +52,7 @@ export function LegalDocumentModal({ document: legalDocument, onClose }: Props) 
           type="button"
           onClick={onClose}
           aria-label="סגירה"
-          className="absolute start-3 top-3 z-10 flex size-9 items-center justify-center rounded-lg text-2xl leading-none text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
+          className="absolute start-3 top-3 z-10 flex size-9 items-center justify-center rounded-lg text-2xl leading-none text-ink transition-colors hover:bg-slate-100 hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
         >
           <span aria-hidden>×</span>
         </button>

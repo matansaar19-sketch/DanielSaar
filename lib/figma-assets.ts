@@ -7,7 +7,7 @@ const figmaAssets = {
   heroPortrait: { mobile: "/figma/hero-portrait-daniel-2026.webp", desktop: "/figma/hero-portrait-daniel-2026.webp" },
   waHeroButton: "/figma/7601bf28-be06-4252-880f-28d48fa0e07d.svg",
   cardPersonalTop: { mobile: "/figma/71ff1037-3ee2-4dab-ac3a-b3f022ba4dfb.webp", desktop: "/figma/6312a868-1fd6-4b1f-b3b9-dcbdb4cccc21.webp" },
-  cardBusinessTop: { mobile: "/figma/2fd6fcb7-f90d-4956-8596-a677234303d5.webp", desktop: "/figma/b03a2d19-2bfc-44ef-b076-0db74ad7700d.webp" },
+  cardBusinessTop: { mobile: "/figma/card-business-logos-cream-m.webp", desktop: "/figma/card-business-logos-cream-d.webp" },
   beforeAfterComposite: "/figma/Group%201000005891.png",
   businessSlideBefore: "/figma/business-slide-before.png",
   businessSlideAfter: "/figma/business-slide-after.png",

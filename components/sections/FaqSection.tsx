@@ -32,7 +32,7 @@ export function FaqSection() {
   return (
     <section aria-labelledby="faq-heading" className="bg-white px-4 py-16 sm:px-8 lg:py-20">
       <div className="mx-auto max-w-3xl">
-        <h2 id="faq-heading" className="mb-10 text-center text-4xl font-bold text-slate-900">
+        <h2 id="faq-heading" className="mb-10 text-center text-4xl font-bold text-ink">
           שאלות ותשובות
         </h2>
         <div className="flex flex-col gap-4">
@@ -48,7 +48,7 @@ export function FaqSection() {
                     type="button"
                     aria-expanded={isOpen}
                     aria-controls={panelId}
-                    className="flex w-full items-start justify-end gap-4 py-3 text-right text-lg font-semibold text-slate-900 transition-colors hover:text-[#e98c00] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
+                    className="flex w-full items-start justify-end gap-4 py-3 text-right text-lg font-semibold text-ink transition-colors hover:text-[#e98c00] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e98c00]"
                     onClick={() => setOpen(isOpen ? null : i)}
                   >
                     <span className="mt-0.5 shrink-0">
@@ -64,7 +64,7 @@ export function FaqSection() {
                     aria-labelledby={buttonId}
                     aria-hidden={!isOpen}
                     hidden={!isOpen}
-                    className="text-right text-base leading-8 text-slate-900"
+                    className="text-right text-base leading-8 text-ink"
                   >
                     <p className="pb-4 pt-1">{item.a}</p>
                   </div>
@@ -80,7 +80,7 @@ export function FaqSection() {
                       opacity: isOpen ? 1 : 0,
                     }}
                     transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-                    className="overflow-hidden text-right text-base leading-8 text-slate-900"
+                    className="overflow-hidden text-right text-base leading-8 text-ink"
                   >
                     <p className="pb-4 pt-1">{item.a}</p>
                   </motion.div>

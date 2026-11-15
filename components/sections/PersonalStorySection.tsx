@@ -37,15 +37,15 @@ export function PersonalStorySection() {
 
             <div className="order-1 flex w-full max-w-[300px] flex-col items-start gap-8 justify-self-center text-right sm:max-w-[370px] content:order-2 content:max-w-[628px] content:justify-self-end content:gap-12">
               <div className="flex w-full flex-col items-start gap-5">
-                <span className="rounded-full border border-[#262c3a] px-4 py-1.5 text-[15px] font-semibold text-slate-900">
+                <span className="rounded-full border border-ink px-4 py-1.5 text-[15px] font-semibold text-ink">
                   אישי
                 </span>
-                <h2 id="personal-heading" className="whitespace-pre-wrap text-3xl font-bold leading-tight text-slate-900 lg:text-[42px]">
+                <h2 id="personal-heading" className="whitespace-pre-wrap text-3xl font-bold leading-tight text-ink lg:text-[42px]">
                   <span>כתיבת{"\n"}</span>
                   <span>סיפור אישי</span>
                 </h2>
               </div>
-              <p className="w-full text-lg font-semibold leading-normal text-[#6f747f] lg:text-[22px]">
+              <p className="w-full text-lg font-semibold leading-normal text-ink lg:text-[22px]">
                 אני מגבשת את הזיכרונות שלכם לספר מרגש שמתעד את המורשת המשפחתית מתוך אמונה שלכל אדם יש סיפור ששווה לספר
               </p>
 
@@ -56,7 +56,7 @@ export function PersonalStorySection() {
                 </picture>
               </div>
 
-              <ul className="flex w-full list-disc flex-col gap-2.5 ps-7 text-lg font-semibold text-slate-900 marker:text-slate-900">
+              <ul className="flex w-full list-disc flex-col gap-2.5 ps-7 text-lg font-semibold text-ink marker:text-ink">
                 {bullets.map((item) => (
                   <li key={typeof item === "string" ? item : item.full}>
                     <span className="max-content:inline content:hidden">{typeof item === "string" ? item : item.short}</span>
