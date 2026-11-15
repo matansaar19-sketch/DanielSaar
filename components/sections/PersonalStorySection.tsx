@@ -28,7 +28,7 @@ const bullets = [
 export function PersonalStorySection() {
   return (
     <MotionFade>
-      <section id="personal-story" aria-labelledby="personal-heading" className="bg-white px-4 pb-24 pt-16 sm:px-8 content:px-0 content:pb-[310px] content:pt-[100px]">
+      <section id="personal-story" aria-labelledby="personal-heading" className="bg-paper px-4 pb-24 pt-16 sm:px-8 content:px-0 content:pb-[310px] content:pt-[100px]">
         <div className="mx-auto flex max-w-[1450px] flex-col items-center gap-20 content:gap-40">
           <div className="mx-auto grid w-full max-w-[370px] grid-cols-1 items-center gap-12 justify-items-center content:mx-0 content:max-w-none content:grid-cols-[minmax(280px,795px)_minmax(0,742px)] content:items-start content:justify-center content:gap-x-8 content:gap-y-12 xl:gap-x-20">
             <div className="relative order-2 w-full min-w-0 max-w-[370px] justify-self-center content:order-1 content:max-w-[795px] content:justify-self-start">
@@ -82,7 +82,7 @@ export function PersonalStorySection() {
             </div>
           </div>
 
-          <ProcessStepCards steps={steps} />
+          <ProcessStepCards steps={steps} tone="paper" />
         </div>
       </section>
     </MotionFade>

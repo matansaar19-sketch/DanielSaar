@@ -107,8 +107,15 @@ function MobileTestimonialsCarousel({ items }: { items: Testimonial[] }) {
 
 export function TestimonialsSection({ items }: { items: Testimonial[] }) {
   return (
-    <section aria-labelledby="testimonials-heading" className="bg-white px-4 py-16 sm:px-8 lg:py-[140px]">
-      <div className="mx-auto flex max-w-[1920px] flex-col gap-10 lg:gap-16">
+    <section aria-labelledby="testimonials-heading" className="relative overflow-hidden bg-white px-4 py-16 sm:px-8 lg:py-[140px]">
+      {/* Decorative oversized quote mark */}
+      <span
+        aria-hidden="true"
+        className="pointer-events-none absolute -top-6 right-[6%] select-none text-[220px] font-extrabold leading-none text-accent opacity-[0.08] lg:-top-10 lg:text-[520px]"
+      >
+        &rdquo;
+      </span>
+      <div className="relative mx-auto flex max-w-[1920px] flex-col gap-10 lg:gap-16">
         <h2 id="testimonials-heading" className="text-center text-3xl font-semibold text-ink lg:text-[40px]">
           חוות דעת
         </h2>

@@ -10,6 +10,12 @@
   --ink: #3d3229; /* main text: dark warm brown, 12.4:1 on white */
   --ink-soft: #665747; /* secondary text (was gray): warm brown, 7.0:1 on white */
   --surface: #f1f1f2;
+  /* Section colors follow the Instagram split: brown = business, cream = personal */
+  --paper: #e6e1d6; /* warm cream: hero, about card, personal + FAQ bands */
+  --paper-light: #f5f2ec; /* step cards on the cream band */
+  --brown: #665747; /* business band (same brown as the business logos card) */
+  --brown-deep: #574a3c; /* step cards on the brown band */
+  --on-brown: #f3efe7; /* text on brown: 5.9:1 on --brown */
 }
 
 html {

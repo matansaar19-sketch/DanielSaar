@@ -13,7 +13,7 @@ export function HeroSection() {
     <MotionFade eager>
       <section aria-labelledby="hero-heading" className="flex justify-center px-4 pb-12 pt-4 sm:px-6 lg:px-10 lg:pb-24">
         <div
-          className="w-full max-w-[1820px] rounded-[30px] bg-[#e6e1d6] bg-[length:190px_auto] bg-left-top bg-no-repeat px-[8px] py-[90px] lg:bg-[length:420px_auto] lg:p-0"
+          className="w-full max-w-[1820px] rounded-[30px] bg-paper bg-[length:190px_auto] bg-left-top bg-no-repeat px-[8px] py-[90px] lg:bg-[length:420px_auto] lg:p-0"
           style={{ backgroundImage: `url(${withBasePath("/figma/hero-paper-tear.webp")})` }}
         >
           {/* Paper-tone card with a torn-paper accent in the top-left corner.
