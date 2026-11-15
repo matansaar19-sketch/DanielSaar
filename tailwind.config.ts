@@ -17,10 +17,6 @@ export default {
         "ink-soft": "var(--ink-soft)",
         surface: "var(--surface)",
         paper: "var(--paper)",
-        "paper-light": "var(--paper-light)",
-        brown: "var(--brown)",
-        "brown-deep": "var(--brown-deep)",
-        "on-brown": "var(--on-brown)",
       },
       fontFamily: {
         sans: ["var(--font-assistant)", "Assistant", "system-ui", "sans-serif"],
