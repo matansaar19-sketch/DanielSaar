@@ -60,11 +60,10 @@ export function HeroSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="ליצירת קשר בוואטסאפ"
-                  variant="brown"
                   className="inline-flex h-12 w-full max-w-[462px] items-center justify-center gap-1 rounded-lg px-5 py-3 text-lg font-semibold"
                 >
                   <span>ליצירת קשר בוואטסאפ</span>
-                  <img src={figma.waHeroButtonCream} alt="" width={24} height={24} className="size-6 shrink-0" aria-hidden />
+                  <img src={figma.waHeroButton} alt="" width={24} height={24} className="size-6 shrink-0" aria-hidden />
                 </AnimatedButton>
               </div>
             </div>
