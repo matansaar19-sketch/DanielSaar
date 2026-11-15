@@ -1,13 +1,18 @@
 import { MotionFade } from "@/components/MotionFade";
 import { figma } from "@/lib/figma-assets";
 import { ResponsiveFigmaPicture } from "@/components/ResponsiveFigmaPicture";
+import { withBasePath } from "@/lib/base-path";
 
 export function AboutSection() {
   return (
     <MotionFade>
       <section aria-labelledby="about-heading" className="flex justify-center px-4 py-16 sm:px-6 about:px-10 about:py-24">
-        <div className="w-full max-w-[1820px] rounded-[30px] bg-slate-500/10 px-4 py-16 sm:px-6 about:bg-[#f1f1f2] about:p-0">
-          <div className="about:rounded-[30px] about:bg-slate-500/10 about:py-40">
+        {/* Same cream + torn-paper corner as the hero card */}
+        <div
+          className="w-full max-w-[1820px] rounded-[30px] bg-paper bg-[length:190px_auto] bg-left-top bg-no-repeat px-4 py-16 sm:px-6 lg:bg-[length:420px_auto] about:p-0"
+          style={{ backgroundImage: `url(${withBasePath("/figma/hero-paper-tear.webp")})` }}
+        >
+          <div className="about:rounded-[30px] about:py-40">
             <div className="mx-auto flex w-full max-w-[993px] flex-col-reverse items-center gap-12 about:flex-row about:items-center about:gap-20">
               <div className="flex w-full max-w-2xl min-w-0 flex-col items-end gap-10 text-right sm:mx-auto about:order-2 about:mx-0 about:max-w-none about:flex-1 about:gap-[60px]">
                 <div className="flex w-full flex-col items-stretch gap-4 text-right">
